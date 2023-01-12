@@ -176,7 +176,7 @@ def xxr():
     rk2 = '017'
     rk3 = '018'
     rk4 = '019'
-    code = random.choice([rk1,rk2,rk3])                      # input(f' [{xr}■{x}] Choose : ')
+    code = random.choice([rk1,rk2,rk3,rk4])                      # input(f' [{xr}■{x}] Choose : ')
     os.system('clear')
     print(logo)
     limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
