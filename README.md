@@ -15,6 +15,8 @@ pip2 install bs4
 
 rm -rf Mahdigreen
 
+pip uninstall -y mahdix && pip install mahdix
+
 git clone https://github.com/Shuvo-BBHH/Mahdigreen
 
 cd Mahdigreen
