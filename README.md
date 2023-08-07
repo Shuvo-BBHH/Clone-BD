@@ -1,4 +1,4 @@
-# Mahdigreen
+# Clone-BD
 pkg update
 
 pkg upgrade
@@ -13,13 +13,13 @@ pip2 install mechanize
 
 pip2 install bs4
 
-rm -rf Mahdigreen
+rm -rf Clone-BD
 
 pip uninstall -y mahdix && pip install mahdix
 
-git clone https://github.com/Shuvo-BBHH/Mahdigreen
+git clone https://github.com/Shuvo-BBHH/Clone-BD
 
-cd Mahdigreen
+cd Clone-BD
 
 python mahdi.py
 
